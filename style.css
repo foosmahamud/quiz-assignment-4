@@ -1,0 +1,48 @@
+body {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#start-container {
+    text-align: center;
+}
+
+#results {
+    text-align: center;
+}
+
+#submit-results {
+    text-align: -webkit-center;
+}
+
+button {
+    padding: 2%;
+    line-height: 1.2;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.btn-answers {
+    width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+    #start-container {
+        /*/margin-left: 40%;*/
+    }
+    #quiz-container {
+        text-align: center;
+    }
+}
